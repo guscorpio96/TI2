@@ -1,0 +1,111 @@
+    .logo-fiscalizacion , .logo-estacion {
+      float:left;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-top: 17px;
+      }
+    
+
+    .clock {
+      font-size: 3em;
+      text-align: right;
+      left: -2%;
+      float: right;
+      margin-top: 1.5rem;
+    }
+
+        .botonenviar{
+       /*margin-top:-32px;
+        margin-left: 784px;*/
+       border-style: solid;
+        border-color: #5C97E4;
+       background-color: #ffffff;
+       padding: 0px 20px 0px 20px;
+       line-height: 20px;
+       /*border: 1;*/
+       font-size: 12px;
+       font-family: sans-serif;
+       font-weight: bold;
+       /*display: block;*/
+        border-radius: 5px;
+        text-decoration: none;
+        color: #5C97E4;  
+        margin-left: 15%;
+        margin-top: 3rem;
+        cursor: pointer;
+        float: right;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+      }
+
+            .numero0{
+      margin-top: 1rem;
+      /*margin-right: -20px;
+      margin-left: 320px;*/
+      color: #549839; 
+      font-size: 23px;
+      }
+      .numero1{
+      margin-top: 1rem;
+      /*margin-right: -20px;
+      margin-left: 320px;*/	
+      color: #BA1818; 
+      font-size: 23px;
+      }
+      .textouno{
+      margin-top: 1.5rem;
+      /*margin-right: -10px;
+      margin-left: 370px;*/
+      font-size: 16px;
+      }
+      #icon-Mapa {
+          display: none; 
+        }
+      #Name {
+        display: none;
+      }
+      @media (max-width: 777px){
+        .clock {
+        display: none;
+        }
+        .numero1{
+        display: none;
+        }
+        .numero0{
+        display: none;
+        }
+        #marca {
+          display: none;
+        }
+        #icon-Mapa {
+          display: inherit; 
+          background-color: white;
+          color: #5C97E4;
+          cursor: pointer;
+          padding: 5px 8px 5px 8px;
+          float: right;
+          margin-left: 0.5%;
+          margin-right: 0.5%;
+          margin-top: 25px;
+          font-size: 16px;
+          border-style: solid;
+          border-color: #5C97E4;
+          border-radius: 5px;
+        }
+        .botonenviar {
+          display: none;
+        }
+        #NameFull {
+          display: none;
+        }
+        #Name {
+          display: inherit;
+        }
+        .centrado {
+          margin: 10px auto;
+          display: block;
+        }
+        .logo-fiscalizacion {
+          width: 100%;
+        }
+      }
